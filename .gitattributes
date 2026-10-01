@@ -1,0 +1,19 @@
+* text=auto
+*.py text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.cmd text eol=crlf
+# WScript and task templates intentionally use UTF-16; preserve their bytes.
+*.vbs -text
+*.xml -text
+# PDF byte offsets must survive Windows checkouts unchanged.
+*.pdf binary
+*.jpg binary
+*.png binary
+
+.gitattributes text eol=lf
+.gitignore text eol=lf

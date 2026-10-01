@@ -1,0 +1,14 @@
+data/
+__pycache__/
+.venv/
+*.log
+qa/*.png
+
+# Secrets, local settings and databases must never be published.
+.env
+.env.*
+*.key
+*.pem
+*.sqlite3
+*.sqlite3-*
+.pytest_cache/
